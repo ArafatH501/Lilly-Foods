@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lilly Foods</title>
+
+  <link rel="shortcut icon" href="./Images/Lilys Food Logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="m-0 p-0 font-sans">
+  <!-- header -->
+  <header class="fixed top-0 left-0 w-full z-50">
+    <nav class="bg-black/40 backdrop-blur-md border-b border-white/20">
+      <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+        <a href="#" class="text-white text-2xl font-bold tracking-wide">
+          Lilly Foods
+        </a>
+
+        <ul class="flex space-x-8">
+          <li>
+            <a href="#" class="text-white hover:text-green-400 transition">Home</a>
+          </li>
+          <li>
+            <a href="#" class="text-white hover:text-green-400 transition">Products</a>
+          </li>
+          <li>
+            <a href="#" class="text-white hover:text-green-400 transition">About Us</a>
+          </li>
+          <li>
+            <a href="#" class="text-white hover:text-green-400 transition">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <main'>
+    <section
+      class="relative min-h-screen bg-[url('./images/bennar.jpeg')] bg-cover bg-center flex items-center justify-center text-center px-6">
+      <!-- Dark Overlay -->
+      <div class="absolute inset-0 bg-black/50"></div>
+
+      <!-- Content -->
+      <div class="relative z-10 max-w-3xl">
+        <p class="text-lg md:text-xl text-gray-200 mb-8">
+          Discover unforgettable flavors crafted by world-class chefs.
+        </p>
+        <h1 class="text-4xl md:text-6xl text-white font-bold mb-6">
+          Experience Culinary Excellence Food Experience
+        </h1>
+        <p class="text-lg md:text-xl text-gray-200 mb-8">
+          Contrary to popular belief, Lorem Ipsum is not simply random text.
+          It has roots in a piece of classical Latin literature from 45 BC,
+          making it over 2000 years old. Richard McClintock
+        </p>
+        <button
+          class="px-8 py-4 rounded-full cursor-pointer border-0 bg-white shadow-[0_0_8px_rgba(0,0,0,0.05)] tracking-[1.5px] uppercase text-[15px] transition-all duration-300 ease-in-out hover:tracking-[3px] hover:shadow-[0_7px_29px_0px_rgb(93,24,220)] active:translate-y-1">
+          Shop The Hottest Food
+        </button>
+      </div>
+    </section>
+    <!-- favorite foods  -->
+
+    <section class="mt-10 bg-white flex flex-col justify-center items-center">
+      <div class="text-center">
+        <p class="text-2xl md:text-xl text-[#101010] opacity-50 mb-4">
+          Favorite Brand
+        </p>
+        <h2 class="font-bold text-5xl mb-12">
+          Your Favorite Brands Food <br />
+          Are Now On Sale
+        </h2>
+        <div class="grid grid-cols-1 md:flex gap-20 mb-11">
+          <div
+            class="flex flex-col justify-center items-center bg-red-200 rounded-2xl px-4 py-3 mb-10 transition-all duration-300 hover:bg-white hover:shadow-lg hover:scale-105">
+            <img class="w-[400px] h-[400px] rounded-2xl mb-6" src="./Images/pizza.jpeg" alt="" />
+            <p class="bg-green-200 px-6 py-3.5 rounded-[20px] font-semibold text-2xl">
+              Pizza Burg
+            </p>
+            <h2 class="font-semibold text-[40px] my-6">Up to 50% Off</h2>
+            <p class="text-[#101010] opacity-70 text-[18px] text-center">
+              Contrary to popular belief, Lorem Ipsum is not <br />
+              simply random text.
+            </p>
+          </div>
+          <div
+            class="px-4 py-3 flex flex-col justify-center items-center bg-red-200 rounded-2xl mb-10 transition-all duration-300 hover:bg-white hover:shadow-lg hover:scale-105 md:bg-red-400">
+            <img class="w-[400px] h-[400px] rounded-2xl mb-6" src="./Images/Kacchi.jpeg" alt="" />
+            <p class="bg-green-200 px-6 py-3.5 rounded-[20px] font-semibold text-2xl">
+              Kacchi Biriyani
+            </p>
+            <h2 class="font-semibold text-[40px] my-6">Up to 50% Off</h2>
+            <p class="text-[#101010] opacity-70 text-[18px]">
+              Contrary to popular belief, Lorem Ipsum is not <br />simply
+              random text.
+            </p>
+          </div>
+          <div
+            class="px-4 py-3 flex flex-col justify-center items-center bg-red-200 rounded-2xl mb-10 transition-all duration-300 hover:bg-white hover:shadow-lg hover:scale-105">
+            <img class="w-[400px] h-[400px] rounded-2xl mb-6" src="./Images/burger.jpeg" alt="" />
+            <p class="bg-green-200 px-6 py-3.5 rounded-[20px] font-semibold text-2xl">
+              Burger king
+            </p>
+            <h2 class="font-semibold text-[40px] my-6">Up to 50% Off</h2>
+            <p class="text-[#101010] opacity-70 text-[18px]">
+              Contrary to popular belief, Lorem Ipsum is not <br />
+              simply random text.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="px-8 py-4 rounded-full cursor-pointer border-0 bg-green-200 shadow-[0_0_8px_rgba(0,0,0,0.05)] tracking-[1.5px] uppercase text-[15px] transition-all duration-300 ease-in-out hover:tracking-[3px] hover:shadow-[0_7px_29px_0px_rgb(93,24,220)] active:translate-y-1 mb-10">
+        Watch All Sells
+      </button>
+    </section>
+    <!-- About Us   -->
+
+    <section class="w-full bg-white py-16">
+      <div class="max-w-5x flex flex-col md:flex-row bg-white">
+        <div class="md:w-1/2">
+          <img src="./Images/about-kabab.jpeg" class="w-full aspect-4/3 object-cover" alt="About Food" />
+        </div>
+
+        <div class="md:w-1/2 flex flex-col justify-center items-center text-center px-10 py-16">
+          <h3 class="text-4xl md:text-5xl font-bold mb-6">
+            We always make sure to provide <br />
+            you with good food
+          </h3>
+
+          <p class="text-gray-500 text-lg mb-10">
+            Don’t miss a thing! Subscribe to our newsletter
+          </p>
+
+          <!-- Divider -->
+          <div class="w-full border-t border-gray-300 mb-6"></div>
+
+          <p class="text-2xl font-semibold opacity-70 mb-6">Follow Us On</p>
+
+          <div class="w-full border-b border-gray-300 mb-8"></div>
+
+          <!-- Social Icons -->
+          <div class="flex space-x-6 text-2xl">
+
+            <a href="https://www.facebook.com/vr.prince.71/" target="_blank" rel="noopener noreferrer"
+              class="hover:scale-110 transition duration-300">
+              <img width="48" height="48" src="https://img.icons8.com/fluency/48/facebook-new.png" alt="facebook" />
+            </a>
+
+            <a href="https://x.com/itz_arafat_444" target="_blank" rel="noopener noreferrer"
+              class="hover:scale-110 transition duration-300">
+              <img width="50" height="50" src="https://img.icons8.com/ios/50/twitterx--v2.png" alt="twitter" />
+            </a>
+
+            <a href="https://www.instagram.com/itz_arafat_444/" target="_blank" rel="noopener noreferrer"
+              class="hover:scale-110 transition duration-300">
+              <img width="48" height="48" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram" />
+            </a>
+
+            <a href="https://www.pinterest.com/yourusername" target="_blank" rel="noopener noreferrer"
+              class="hover:scale-110 transition duration-300">
+              <img width="48" height="48" src="https://img.icons8.com/color/48/pinterest--v1.png" alt="pinterest" />
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    </main>
+</body>
+
+</html>
